@@ -1,0 +1,60 @@
+
+/*   NAV-BAR   */
+.navBg {
+  background-color: #849fb8;
+}
+
+.list {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+  top: -4em;
+  right: 2em;
+}
+
+li {
+  display: inline;
+}
+
+.titleName {
+  position: relative;
+  left: 3em;
+  top: -1em;
+}
+
+.icon {
+  position: relative;
+  top: 1.5em;
+  left: 1em;
+}
+
+/*   HERO SECTION   */
+
+.missionStatement {
+  text-align: center;
+  background-color: #ecebeb;
+  position: relative;
+  top: -1.5em;
+  height: 11em;
+}
+
+.textBlock {
+  position: relative;
+  top: 3em;
+}
+
+h2 {
+  position: relative;
+  left: 2em;
+}
+
+.content {
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+
