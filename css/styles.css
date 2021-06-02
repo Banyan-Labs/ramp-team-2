@@ -87,15 +87,17 @@ a {
   float: right;
   text-align: center;
   width: 50%;
-  height: 60vh;
+  height: 50%;
   margin-top: 20;
   position: fixed;
   padding: 175px;
   justify-content: center;
+  
 }
 
 .about-img{
-width: 200;
+width:auto;
+height: auto%
 
 }
 
