@@ -1,55 +1,17 @@
-
 /*   NAV-BAR   */
 .navBg {
   background-color: #849fb8;
-
+}
+.icon {
 }
 
 .list {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  float: right;
-  position: relative;
-  top: -4em;
-  right: 2em;
-
 }
 
 li {
-  display: inline;
 }
 
 .titleName {
-  position: relative;
-  left: 3em;
-  top: -1em;
-
-}
-
-/* myImage */
-.item1 {
-  float: left;
-   height: auto;
-   width: 45%;
-   margin-top: 150px;
-  
- }
- /* context */
-  .item2 {
-   float:right;
-   text-align: center;
-   width: 45%;
-   height: 60vh;
-   margin-top: 150;
-   position: fixed;
-   padding: 175px;
-}
-
-.icon {
-  position: relative;
-  top: 1.5em;
-  left: 1em;
 }
 
 /*   HERO SECTION   */
@@ -72,10 +34,22 @@ h2 {
   left: 2em;
 }
 
-.content {
-  width: 100%;
-  display: block;
-  margin: auto;
-  padding-top: 100px;
-}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
+/* myImage */
+.item1 {
+  float: left;
+  height: auto;
+  width: 45%;
+  margin-top: 150px;
+}
+/* context */
+.item2 {
+  float: right;
+  text-align: center;
+  width: 45%;
+  height: 60vh;
+  margin-top: 150;
+  position: fixed;
+  padding: 175px;
+}
