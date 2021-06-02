@@ -1,17 +1,37 @@
+
 /*   NAV-BAR   */
 .navBg {
   background-color: #849fb8;
-}
-.icon {
+
 }
 
 .list {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+  top: -4em;
+  right: 2em;
+  color: black;
 }
 
 li {
+  display: inline;
 }
 
 .titleName {
+  position: relative;
+  left: 3em;
+  top: -1em;
+
+}
+
+
+.icon {
+  position: relative;
+  top: 1.5em;
+  left: 1em;
 }
 
 /*   HERO SECTION   */
@@ -34,9 +54,8 @@ h2 {
   left: 2em;
 }
 
-/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
-
-/* myImage */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* about us */
 .item1 {
   float: left;
   height: auto;
@@ -47,9 +66,18 @@ h2 {
 .item2 {
   float: right;
   text-align: center;
-  width: 45%;
+  width: 50%;
   height: 60vh;
-  margin-top: 150;
+  margin-top: 20;
   position: fixed;
   padding: 175px;
+  justify-content: center;
 }
+
+.about-img{
+width: 200;
+
+}
+
+  
+
