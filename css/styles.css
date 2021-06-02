@@ -1,37 +1,49 @@
 /*   NAV-BAR   */
 .navBg {
   background-color: #849fb8;
+  height: 80px;
 }
 .icon {
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+  color: #c4c4c4;
 }
 
 .list {
+  list-style-type: none;
+  padding-top: 19px;
 }
 
 li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
 }
 
 .titleName {
+  float: left;
+  margin-top: 14px;
+  margin-left: 30px;
 }
 
 /*   HERO SECTION   */
 
 .missionStatement {
-  text-align: center;
   background-color: #ecebeb;
-  position: relative;
-  top: -1.5em;
-  height: 11em;
+  height: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .textBlock {
-  position: relative;
-  top: 3em;
-}
-
-h2 {
-  position: relative;
-  left: 2em;
+  text-align: center;
+  margin-top: 55px;
 }
 
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
