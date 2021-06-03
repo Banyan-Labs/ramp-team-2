@@ -106,8 +106,13 @@ width:auto;
 height: auto;
 }
 
- .card-container {
-  color:#c4c4c4;
+ .card {
+  background:#722222;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
 }
   
 
