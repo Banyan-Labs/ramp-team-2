@@ -4,3 +4,110 @@
     margin: auto;
     padding-top: 100px;
 }
+
+/*   NAV-BAR   */
+.navBg {
+  background-color: #849fb8;
+
+}
+
+.list {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  position: relative;
+  top: -4em;
+  right: 2em;
+  color: black;
+  height: 80px;
+}
+.icon {
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+  color: #c4c4c4;
+}
+
+.list {
+  list-style-type: none;
+  padding-top: 19px;
+
+}
+
+li {
+  display: inline;
+}
+
+.titleName {
+  position: relative;
+  left: 3em;
+  top: -1em;
+
+}
+
+
+.icon {
+  position: relative;
+  top: 1.5em;
+  left: 1em;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+}
+
+.titleName {
+  float: left;
+  margin-top: 14px;
+  margin-left: 30px;
+}
+
+/*   HERO SECTION   */
+
+.missionStatement {
+  background-color: #ecebeb;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.textBlock {
+  text-align: center;
+  margin-top: 55px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* about us */
+.item1 {
+  float: left;
+  height: auto;
+  width: 45%;
+  margin-top: 150px;
+}
+/* context */
+.item2 {
+  float: right;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  margin-top: 20;
+  position: fixed;
+  padding: 175px;
+  justify-content: center;
+  
+}
+
+.about-img{
+width:auto;
+height: auto;
+}
+
+ .card-container {
+  color:#c4c4c4;
+}
+  
+
