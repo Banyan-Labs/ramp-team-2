@@ -88,17 +88,19 @@ a {
   text-align: center;
   width: 50%;
   height: 50%;
-  margin-top: 20;
+  margin-top: auto;
   position: fixed;
   padding: 175px;
   justify-content: center;
-  
 }
 
 .about-img{
 width:auto;
-height: auto%
+height: auto;
+}
 
+.container {
+  margin: 20px;
 }
 
   
