@@ -85,7 +85,7 @@ a {
 /* context */
 .item2 {
   float: right;
-  text-align: center;
+  text-align: left;
   width: 50%;
   height: 50%;
   margin-top: auto;
