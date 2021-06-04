@@ -25,7 +25,7 @@
 
 .list {
   list-style-type: none;
-  padding-top: 19px;
+  padding-top: 19px; 
 
 }
 
@@ -102,6 +102,7 @@ height: auto;
 .container {
   margin: 20px;
 }
+
 
   
 
