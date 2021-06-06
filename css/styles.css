@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+ /* Updated upstream */
 .content{
     width:100%;
     display: block;
@@ -34,8 +34,7 @@
   list-style-type: none;
   padding-top: 19px;
 }
-/* =======
- { box-sizing: border-box; } */
+
 body {
     margin: 0;
     padding: 0;
@@ -47,9 +46,9 @@ body {
     --gray: #C4C4C4;
     --white: #FFFFFF;
     --light-gray: #ECEBEB;
->>>>>>> Stashed changes
-}
-
+ }
+ 
+/* Stashed changes */
 /*   NAV-BAR   */
 .navbar-container {
   width: 100%;
