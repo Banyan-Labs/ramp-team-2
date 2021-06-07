@@ -4,3 +4,4 @@
 
 - Jason Lyles
 - Scott Marino
+- Michael Praetz
