@@ -47,7 +47,7 @@ body {
     --white: #FFFFFF;
     --light-gray: #ECEBEB;
  }
- 
+
 /* Stashed changes */
 /*   NAV-BAR   */
 .navbar-container {
@@ -140,8 +140,8 @@ height: auto;
 
 .card {
   background:#849fb8;
-  height: 200px;
-  width: 125px;
+  height: 300px;
+  width: 225px;
   display: flex;
   flex-direction: column;
   
