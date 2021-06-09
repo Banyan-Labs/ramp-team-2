@@ -6,3 +6,4 @@
 - Jason Lyles
 - Scott Marino
 - Michael Praetz
+- Pamela Augustine
