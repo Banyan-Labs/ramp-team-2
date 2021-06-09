@@ -1,92 +1,25 @@
-
- /* Updated upstream */
-.content{
-    width:100%;
-    display: block;
-    margin: auto;
-    padding-top: 100px;
+* {
+  box-sizing: border-box;
 }
- services-section-mp
-
-/*   NAV-BAR   */
-.navBg {
-  background-color: #849fb8;
-
-}
-
-.list {
-  text-decoration: none;
+body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  
+}
+
+
+/* Float four columns side by side */
+.column {
   float: right;
+  width: 200px;
+  padding: 0 20px;
+  padding-left: 15%;
   position: relative;
-  top: -4em;
-  right: 2em;
-  color: black;
-  height: 80px;
-}
-.icon {
-  float: left;
-  margin-top: 20px;
-  margin-left: 25px;
-  color: #c4c4c4;
-}
-
-.list {
-  list-style-type: none;
-  padding-top: 19px; 
-}
-
-li {
-  display: inline;
-}
-
-.titleName {
-  position: relative;
-  left: 3em;
-  top: -1em;
-
-}
-
-
-.icon {
-  position: relative;
-  top: 1.5em;
-  left: 1em;
-  padding: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 25px;
-}
-
-.titleName {
-  float: left;
-  margin-top: 14px;
-  margin-left: 30px;
-}
-
-/*   HERO SECTION   */
-
-.missionStatement {
-  background-color: #ecebeb;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-}
-
-.textBlock {
-  text-align: center;
-  margin-top: 55px;
-  padding-top: 19px;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  right: 375px;
+  top: 10px;
+  margin: 10px;
+  
 }
 
 :root {
@@ -152,7 +85,147 @@ body {
   margin: 0 5px;
 }
 
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+  background-color: lightgrey;
+  padding: 50px;
+  padding-bottom: 100px;
+}
 
+
+/* Clear floats after the columns */
+.row:after {
+  content:" ";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 20px;
+  text-align: center;
+  background-color:  #849FB8; 
+  height: 275px;
+  position: relative;
+  right: 90px;
+  top: 10px;
+  width: 200px;
+  display: grid;
+}
+ .card:not(:first-child) {
+  margin-left: -2rem;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;    
+    display: block;
+    margin-bottom: 20%;
+  }
+} */
+.button {
+  color: black;
+  background-color:  #E7E7E7; /* Gray */
+  border: none;
+  font-size: 15px;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 45%;
+  box-shadow: 0 5px rgb(112, 105, 105);
+  animation: pulse 5s infinite;
+} 
+ .button:hover {
+     color: green;
+}
+.button:active {
+  background-color: #F01414;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.content{
+  width:100%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+services-section-mp
+
+/*   NAV-BAR   */
+.navBg {
+background-color: #849fb8;
+
+}
+
+.list {
+text-decoration: none;
+margin: 0;
+padding: 0;
+float: right;
+position: relative;
+top: -4em;
+right: 2em;
+color: black;
+height: 80px;
+}
+.icon {
+float: left;
+margin-top: 20px;
+margin-left: 25px;
+color: #c4c4c4;
+}
+
+.list {
+list-style-type: none;
+padding-top: 19px; 
+}
+
+li {
+display: inline;
+}
+
+.titleName {
+position: relative;
+left: 3em;
+top: -1em;
+
+}
+
+
+.icon {
+position: relative;
+top: 1.5em;
+left: 1em;
+padding: 10px;
+}
+
+a {
+text-decoration: none;
+color: #000000;
+font-size: 25px;
+}
+
+.titleName {
+float: left;
+margin-top: 14px;
+margin-left: 30px;
+}
+
+.missionStatement{
+  text-align: center;
+  
+}
+
+.textBlock{
+  margin-top: 70px;
+}
 
 
 
@@ -196,14 +269,6 @@ height: auto;
     width: 100%;
 }
 
-.card {
-  background:#849fb8;
-  height: 300px;
-  width: 225px;
-  display: flex;
-  flex-direction: column;
-  
-} 
 
   
 
